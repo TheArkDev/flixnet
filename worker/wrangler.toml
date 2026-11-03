@@ -1,3 +1,9 @@
 name = "flixnet-api"
 main = "index.js"
 compatibility_date = "2026-01-01"
+
+# Create with:  npx wrangler d1 create flixnet   then paste the printed id below.
+[[d1_databases]]
+binding = "DB"
+database_name = "flixnet"
+database_id = "9a85d8a2-375d-45ce-82cf-34f37364eaa0"
